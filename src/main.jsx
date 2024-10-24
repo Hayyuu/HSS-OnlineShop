@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from './Home-Component/Home.jsx'
 import Shop from './Shop-component/Shop.jsx'
+import ErrorPage from './ErrorPage.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const routes=createBrowserRouter([
@@ -12,6 +13,7 @@ const routes=createBrowserRouter([
     {path:'shop',element:<Shop />},
     {index:true,element:<Home />},
   ,],
+  errorElement:<ErrorPage />
 },
   
 ]);

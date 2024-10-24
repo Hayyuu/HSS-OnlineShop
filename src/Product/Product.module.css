@@ -1,0 +1,14 @@
+.card{
+    border:1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+button{
+    background-color: var(--secondary-color);
+}
+button:hover{
+    border:var(--secondary-color);
+    background: var(--ternary-color);
+}
+h4{
+    color: var(--ternary-color);
+}
