@@ -1,0 +1,28 @@
+
+h1{
+    color: var(--secondary-color);
+    font-family: 'Bogart', sans-serif;;
+    margin: 0;
+}
+p{
+    color: var(--ternary-color);
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    padding: 0 300px;
+}
+section{
+    display: grid;
+    grid-template:1fr 1fr/1fr;
+    justify-content: center;
+    justify-items: center;
+}
+img{
+    width:300px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:900px){
+  p{
+    padding: 0 20px;
+  }
+}
